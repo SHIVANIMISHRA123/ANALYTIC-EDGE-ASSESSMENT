@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* -----------------------Post component----------------------------- */
+.post_container {
+  width: 90%;
+  margin: auto;
+}
+
+.post_container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.post_container thead tr {
+  background-color: rgb(108, 122, 137);
+  color: rgb(242, 235, 235);
+}
+
+.post_container th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #7a3434;
+}
+.post_container tr:nth-child(even) {
+  background-color: #abacac;
+}
+
+.post_container button {
+  padding: 10px;
+  background-color: rgb(177, 113, 182);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.post_container tr:hover {
+  background-color: #ece7e7;
+}
+
+/* -----------------------Comment component----------------------------- */
+.comments_container {
+  width: 90%;
+  margin: auto;
+}
+.comments_container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.comments_container thead tr {
+  background-color: rgb(138, 130, 141);
+  color: white;
+}
+.comments_container th,
+td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #836262;
+}
+.comments_container tr:nth-child(even) {
+  background-color: #ccc4cc;
+}
+.comments_container button {
+  padding: 10px;
+  background-color: rgb(206, 89, 194);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.button button {
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+}
+
+/* -----------------------Loading component----------------------------- */
+.loading_container {
+  width: 100%;
+}
+.loading_container img {
+  width: 100px;
+  margin: auto;
+  display: block;
+}
+
+/* -----------------------User component----------------------------- */
+
+.user_component {
+  width: 90%;
+  margin: auto;
+}
+.user_component table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.user_component thead tr {
+  background-color: rgb(126, 91, 125);
+  color: white;
+}
+
+.user_component th,
+td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+.user_component tr:nth-child(even) {
+  background-color: #ddd;
+}
+.user_component button {
+  padding: 10px;
+  background-color: rgb(185, 113, 182);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.search_container {
+  width: 100%;
+  background-color: rgb(193, 190, 187);
+  padding: 10px;
+}
+.search_container input{
+ width: 40%;
+ padding: 5px;
+ border-radius: 5px;
+ border: none;
+ border: 1px solid rgb(139, 118, 142);
+ margin-left: 30%;
+}
